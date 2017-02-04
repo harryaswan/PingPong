@@ -10,7 +10,7 @@ app.get('/', function(request, response) {
 });
 
 var gameRouter = express.Router();
-gameRouter.get('/', fuction(req, res) {
+gameRouter.get('/', function(req, res) {
 	res.send('main route for game');
 });
 gameRouter.get('/play', function(req, res) {
