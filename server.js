@@ -18,7 +18,7 @@ gameRouter.get('/play', function(req, res) {
 });
 gameRouter.get('/play/:id/:id2', function(req, res) {
 	res.send('play with id1: ' + req.params.id + ' & id2: ' + req.params.id2);
-}
+});
 
 app.use('/game', gameRouter);
 
