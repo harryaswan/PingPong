@@ -3,7 +3,7 @@ var app = express();
 
 app.set('port', (process.env.PORT || 5000));
 
-require('./routes')(app);
+require('./routes')(app, express);
 
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
