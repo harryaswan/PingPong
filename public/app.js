@@ -12,6 +12,6 @@ window.onload = function () {
 		document.getElementById('user_container'),
 		document.getElementById('play_container'),
 		document.getElementById('game_container'),
-		document.getElementById('score_container'),
+		document.getElementById('score_container')
 	);
 }
